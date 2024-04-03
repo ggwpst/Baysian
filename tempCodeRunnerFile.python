@@ -1,0 +1,6 @@
+import numpy as np
+import pandas as pd
+import torch
+
+model = torch.hub.load('pytorch/vision:v0.10.0','resnext50_32x4d')
+print(model)
